@@ -135,4 +135,8 @@ public class bookController implements Serializable {
         this.booksFacade.remove(book);
         return "start.xhtml?faces-redirect=true";
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
