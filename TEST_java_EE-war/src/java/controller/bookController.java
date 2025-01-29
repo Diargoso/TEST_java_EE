@@ -127,7 +127,7 @@ public class bookController implements Serializable {
     }
 
     public String updateBook(Book book) {
-        this.booksFacade.edit(this.book);
+        this.booksFacade.edit(book);
         return "start.xhtml?faces-redirect=true";
     }
 

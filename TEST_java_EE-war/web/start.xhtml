@@ -65,7 +65,7 @@
                                 <h:outputText value="Year: " />
                                 <p:inputText value="#{bookController.selectedBook.year}" />
                             </p:panelGrid>
-                            <p:commandButton value="Update" icon="fa fa-fw fa-pencil" action="#{bookController.updateBook()}"/>
+                            <p:commandButton value="Update" icon="fa fa-fw fa-pencil" action="#{bookController.updateBook(bookController.selectedBook)}"/>
                         </p:outputPanel>
                     </p:dialog>
                 </h:form>
